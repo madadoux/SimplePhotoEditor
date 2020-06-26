@@ -9,13 +9,29 @@
 /* Begin PBXBuildFile section */
 		06790D5824A6A993004111D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D5724A6A993004111D4 /* AppDelegate.swift */; };
 		06790D5A24A6A993004111D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D5924A6A993004111D4 /* SceneDelegate.swift */; };
-		06790D5C24A6A993004111D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D5B24A6A993004111D4 /* ViewController.swift */; };
 		06790D5F24A6A993004111D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06790D5D24A6A993004111D4 /* Main.storyboard */; };
 		06790D6224A6A993004111D4 /* SimplePhotoEditor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06790D6024A6A993004111D4 /* SimplePhotoEditor.xcdatamodeld */; };
 		06790D6424A6A996004111D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06790D6324A6A996004111D4 /* Assets.xcassets */; };
 		06790D6724A6A996004111D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06790D6524A6A996004111D4 /* LaunchScreen.storyboard */; };
 		06790D7224A6A997004111D4 /* SimplePhotoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D7124A6A997004111D4 /* SimplePhotoEditorTests.swift */; };
 		06790D7D24A6A997004111D4 /* SimplePhotoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D7C24A6A997004111D4 /* SimplePhotoEditorUITests.swift */; };
+		06790D8F24A6AA6E004111D4 /* ImageCombiner2ImagesTemplate1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D8E24A6AA6E004111D4 /* ImageCombiner2ImagesTemplate1.swift */; };
+		06790D9124A6AAAD004111D4 /* CombineImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9024A6AAAD004111D4 /* CombineImagesViewController.swift */; };
+		06790D9324A6AAC3004111D4 /* DUviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9224A6AAC3004111D4 /* DUviews.swift */; };
+		06790D9524A6AB23004111D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9424A6AB23004111D4 /* MainViewController.swift */; };
+		06790D9824A6AB84004111D4 /* BrushFeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06790D9624A6AB84004111D4 /* BrushFeatherViewController.xib */; };
+		06790D9924A6AB84004111D4 /* BrushFeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9724A6AB84004111D4 /* BrushFeatherVC.swift */; };
+		06790D9B24A6AB9A004111D4 /* DrawableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9A24A6AB9A004111D4 /* DrawableImageView.swift */; };
+		06790DA024A6ABDC004111D4 /* UIImageView+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9D24A6ABDC004111D4 /* UIImageView+Alpha.swift */; };
+		06790DA124A6ABDC004111D4 /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9E24A6ABDC004111D4 /* UIView+Image.swift */; };
+		06790DA224A6ABDC004111D4 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790D9F24A6ABDC004111D4 /* UIImage+Size.swift */; };
+		06790DA724A6AC2C004111D4 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790DA324A6AC2C004111D4 /* PhotoEditorViewController.swift */; };
+		06790DA824A6AC2C004111D4 /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06790DA424A6AC2C004111D4 /* PhotoEditorViewController.xib */; };
+		06790DA924A6AC2C004111D4 /* PhotoEditor+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790DA524A6AC2C004111D4 /* PhotoEditor+Gestures.swift */; };
+		06790DAA24A6AC2C004111D4 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06790DA624A6AC2C004111D4 /* ImagePickerViewController.swift */; };
+		0A89AD213E5A7C3ECB091745 /* Pods_SimplePhotoEditor_SimplePhotoEditorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F8F3C084D3BE29521AE73 /* Pods_SimplePhotoEditor_SimplePhotoEditorUITests.framework */; };
+		3DB2B9503637D3CE0ECB8FEB /* Pods_SimplePhotoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9F694836BBE77658C1377A /* Pods_SimplePhotoEditor.framework */; };
+		B9DD87C21A2DCE745FF89772 /* Pods_SimplePhotoEditorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 081DD9543DCDFAA4836C75A5 /* Pods_SimplePhotoEditorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +55,6 @@
 		06790D5424A6A993004111D4 /* SimplePhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06790D5724A6A993004111D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06790D5924A6A993004111D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06790D5B24A6A993004111D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06790D5E24A6A993004111D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06790D6124A6A993004111D4 /* SimplePhotoEditor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplePhotoEditor.xcdatamodel; sourceTree = "<group>"; };
 		06790D6324A6A996004111D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +66,29 @@
 		06790D7824A6A997004111D4 /* SimplePhotoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePhotoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06790D7C24A6A997004111D4 /* SimplePhotoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePhotoEditorUITests.swift; sourceTree = "<group>"; };
 		06790D7E24A6A997004111D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06790D8E24A6AA6E004111D4 /* ImageCombiner2ImagesTemplate1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCombiner2ImagesTemplate1.swift; sourceTree = "<group>"; };
+		06790D9024A6AAAD004111D4 /* CombineImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineImagesViewController.swift; sourceTree = "<group>"; };
+		06790D9224A6AAC3004111D4 /* DUviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUviews.swift; sourceTree = "<group>"; };
+		06790D9424A6AB23004111D4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		06790D9624A6AB84004111D4 /* BrushFeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BrushFeatherViewController.xib; path = ../../../QQPayment/QQPayment/BrushFeather/BrushFeatherViewController.xib; sourceTree = "<group>"; };
+		06790D9724A6AB84004111D4 /* BrushFeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushFeatherVC.swift; sourceTree = "<group>"; };
+		06790D9A24A6AB9A004111D4 /* DrawableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawableImageView.swift; sourceTree = "<group>"; };
+		06790D9D24A6ABDC004111D4 /* UIImageView+Alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Alpha.swift"; sourceTree = "<group>"; };
+		06790D9E24A6ABDC004111D4 /* UIView+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Image.swift"; sourceTree = "<group>"; };
+		06790D9F24A6ABDC004111D4 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		06790DA324A6AC2C004111D4 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		06790DA424A6AC2C004111D4 /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
+		06790DA524A6AC2C004111D4 /* PhotoEditor+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Gestures.swift"; sourceTree = "<group>"; };
+		06790DA624A6AC2C004111D4 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		081DD9543DCDFAA4836C75A5 /* Pods_SimplePhotoEditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoEditorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9F8F3C084D3BE29521AE73 /* Pods_SimplePhotoEditor_SimplePhotoEditorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoEditor_SimplePhotoEditorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1408A3E090ADB64DA3263D1D /* Pods-SimplePhotoEditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoEditorTests.debug.xcconfig"; path = "Target Support Files/Pods-SimplePhotoEditorTests/Pods-SimplePhotoEditorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DDDF274866CE705CEE8F4C7 /* Pods-SimplePhotoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoEditor.release.xcconfig"; path = "Target Support Files/Pods-SimplePhotoEditor/Pods-SimplePhotoEditor.release.xcconfig"; sourceTree = "<group>"; };
+		68E082246169EFEFD7966BFD /* Pods-SimplePhotoEditor-SimplePhotoEditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoEditor-SimplePhotoEditorUITests.release.xcconfig"; path = "Target Support Files/Pods-SimplePhotoEditor-SimplePhotoEditorUITests/Pods-SimplePhotoEditor-SimplePhotoEditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80EB8732E96749D37608CF94 /* Pods-SimplePhotoEditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoEditorTests.release.xcconfig"; path = "Target Support Files/Pods-SimplePhotoEditorTests/Pods-SimplePhotoEditorTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF9F694836BBE77658C1377A /* Pods_SimplePhotoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF971E0CA0769ACA6D14CFB /* Pods-SimplePhotoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoEditor.debug.xcconfig"; path = "Target Support Files/Pods-SimplePhotoEditor/Pods-SimplePhotoEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BC5E9E31F64FDDF683B9A0 /* Pods-SimplePhotoEditor-SimplePhotoEditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoEditor-SimplePhotoEditorUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimplePhotoEditor-SimplePhotoEditorUITests/Pods-SimplePhotoEditor-SimplePhotoEditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB2B9503637D3CE0ECB8FEB /* Pods_SimplePhotoEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DD87C21A2DCE745FF89772 /* Pods_SimplePhotoEditorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A89AD213E5A7C3ECB091745 /* Pods_SimplePhotoEditor_SimplePhotoEditorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +126,8 @@
 				06790D7024A6A997004111D4 /* SimplePhotoEditorTests */,
 				06790D7B24A6A997004111D4 /* SimplePhotoEditorUITests */,
 				06790D5524A6A993004111D4 /* Products */,
+				8AFDD199008F7FBB83A8CADA /* Pods */,
+				3A324FF1359AAF6AF3AF0FCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +144,11 @@
 		06790D5624A6A993004111D4 /* SimplePhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
-				06790D5724A6A993004111D4 /* AppDelegate.swift */,
-				06790D5924A6A993004111D4 /* SceneDelegate.swift */,
-				06790D5B24A6A993004111D4 /* ViewController.swift */,
-				06790D5D24A6A993004111D4 /* Main.storyboard */,
+				06790D9C24A6ABDC004111D4 /* Extension */,
+				06790D8D24A6AA03004111D4 /* FeatherBrushTool */,
+				06790D8C24A6A9D8004111D4 /* PhotoCombiner */,
+				06790D8B24A6A9BD004111D4 /* WhatsappPhotoEditor */,
+				06790D8A24A6A9A2004111D4 /* Core */,
 				06790D6324A6A996004111D4 /* Assets.xcassets */,
 				06790D6524A6A996004111D4 /* LaunchScreen.storyboard */,
 				06790D6824A6A996004111D4 /* Info.plist */,
@@ -131,6 +175,82 @@
 			path = SimplePhotoEditorUITests;
 			sourceTree = "<group>";
 		};
+		06790D8A24A6A9A2004111D4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				06790D5724A6A993004111D4 /* AppDelegate.swift */,
+				06790D5D24A6A993004111D4 /* Main.storyboard */,
+				06790D9424A6AB23004111D4 /* MainViewController.swift */,
+				06790D5924A6A993004111D4 /* SceneDelegate.swift */,
+				06790D9224A6AAC3004111D4 /* DUviews.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		06790D8B24A6A9BD004111D4 /* WhatsappPhotoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				06790DA624A6AC2C004111D4 /* ImagePickerViewController.swift */,
+				06790DA324A6AC2C004111D4 /* PhotoEditorViewController.swift */,
+				06790DA524A6AC2C004111D4 /* PhotoEditor+Gestures.swift */,
+				06790DA424A6AC2C004111D4 /* PhotoEditorViewController.xib */,
+			);
+			path = WhatsappPhotoEditor;
+			sourceTree = "<group>";
+		};
+		06790D8C24A6A9D8004111D4 /* PhotoCombiner */ = {
+			isa = PBXGroup;
+			children = (
+				06790D8E24A6AA6E004111D4 /* ImageCombiner2ImagesTemplate1.swift */,
+				06790D9024A6AAAD004111D4 /* CombineImagesViewController.swift */,
+			);
+			path = PhotoCombiner;
+			sourceTree = "<group>";
+		};
+		06790D8D24A6AA03004111D4 /* FeatherBrushTool */ = {
+			isa = PBXGroup;
+			children = (
+				06790D9724A6AB84004111D4 /* BrushFeatherVC.swift */,
+				06790D9A24A6AB9A004111D4 /* DrawableImageView.swift */,
+				06790D9624A6AB84004111D4 /* BrushFeatherViewController.xib */,
+			);
+			path = FeatherBrushTool;
+			sourceTree = "<group>";
+		};
+		06790D9C24A6ABDC004111D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				06790D9D24A6ABDC004111D4 /* UIImageView+Alpha.swift */,
+				06790D9E24A6ABDC004111D4 /* UIView+Image.swift */,
+				06790D9F24A6ABDC004111D4 /* UIImage+Size.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3A324FF1359AAF6AF3AF0FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F694836BBE77658C1377A /* Pods_SimplePhotoEditor.framework */,
+				0A9F8F3C084D3BE29521AE73 /* Pods_SimplePhotoEditor_SimplePhotoEditorUITests.framework */,
+				081DD9543DCDFAA4836C75A5 /* Pods_SimplePhotoEditorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AFDD199008F7FBB83A8CADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAF971E0CA0769ACA6D14CFB /* Pods-SimplePhotoEditor.debug.xcconfig */,
+				5DDDF274866CE705CEE8F4C7 /* Pods-SimplePhotoEditor.release.xcconfig */,
+				F4BC5E9E31F64FDDF683B9A0 /* Pods-SimplePhotoEditor-SimplePhotoEditorUITests.debug.xcconfig */,
+				68E082246169EFEFD7966BFD /* Pods-SimplePhotoEditor-SimplePhotoEditorUITests.release.xcconfig */,
+				1408A3E090ADB64DA3263D1D /* Pods-SimplePhotoEditorTests.debug.xcconfig */,
+				80EB8732E96749D37608CF94 /* Pods-SimplePhotoEditorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06790D8124A6A997004111D4 /* Build configuration list for PBXNativeTarget "SimplePhotoEditor" */;
 			buildPhases = (
+				C9DD7ABA33753FE27D95E2F7 /* [CP] Check Pods Manifest.lock */,
 				06790D5024A6A993004111D4 /* Sources */,
 				06790D5124A6A993004111D4 /* Frameworks */,
 				06790D5224A6A993004111D4 /* Resources */,
+				D6CC24DFA7716F7E50D63B2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06790D8424A6A997004111D4 /* Build configuration list for PBXNativeTarget "SimplePhotoEditorTests" */;
 			buildPhases = (
+				8D8730E1AE89CBEEB8320953 /* [CP] Check Pods Manifest.lock */,
 				06790D6924A6A997004111D4 /* Sources */,
 				06790D6A24A6A997004111D4 /* Frameworks */,
 				06790D6B24A6A997004111D4 /* Resources */,
@@ -173,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06790D8724A6A997004111D4 /* Build configuration list for PBXNativeTarget "SimplePhotoEditorUITests" */;
 			buildPhases = (
+				32D27B54367A42611301CF01 /* [CP] Check Pods Manifest.lock */,
 				06790D7424A6A997004111D4 /* Sources */,
 				06790D7524A6A997004111D4 /* Frameworks */,
 				06790D7624A6A997004111D4 /* Resources */,
+				766C6DA7694FCAD574C8A807 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,7 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06790DA824A6AC2C004111D4 /* PhotoEditorViewController.xib in Resources */,
 				06790D6724A6A996004111D4 /* LaunchScreen.storyboard in Resources */,
+				06790D9824A6AB84004111D4 /* BrushFeatherViewController.xib in Resources */,
 				06790D6424A6A996004111D4 /* Assets.xcassets in Resources */,
 				06790D5F24A6A993004111D4 /* Main.storyboard in Resources */,
 			);
@@ -257,15 +384,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D27B54367A42611301CF01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePhotoEditor-SimplePhotoEditorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766C6DA7694FCAD574C8A807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoEditor-SimplePhotoEditorUITests/Pods-SimplePhotoEditor-SimplePhotoEditorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoEditor-SimplePhotoEditorUITests/Pods-SimplePhotoEditor-SimplePhotoEditorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoEditor-SimplePhotoEditorUITests/Pods-SimplePhotoEditor-SimplePhotoEditorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8730E1AE89CBEEB8320953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePhotoEditorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9DD7ABA33753FE27D95E2F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePhotoEditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CC24DFA7716F7E50D63B2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoEditor/Pods-SimplePhotoEditor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoEditor/Pods-SimplePhotoEditor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoEditor/Pods-SimplePhotoEditor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06790D5024A6A993004111D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06790D5C24A6A993004111D4 /* ViewController.swift in Sources */,
+				06790DA224A6ABDC004111D4 /* UIImage+Size.swift in Sources */,
+				06790DA124A6ABDC004111D4 /* UIView+Image.swift in Sources */,
+				06790D9524A6AB23004111D4 /* MainViewController.swift in Sources */,
 				06790D6224A6A993004111D4 /* SimplePhotoEditor.xcdatamodeld in Sources */,
+				06790D9324A6AAC3004111D4 /* DUviews.swift in Sources */,
+				06790D9924A6AB84004111D4 /* BrushFeatherVC.swift in Sources */,
+				06790DAA24A6AC2C004111D4 /* ImagePickerViewController.swift in Sources */,
 				06790D5824A6A993004111D4 /* AppDelegate.swift in Sources */,
 				06790D5A24A6A993004111D4 /* SceneDelegate.swift in Sources */,
+				06790D9124A6AAAD004111D4 /* CombineImagesViewController.swift in Sources */,
+				06790D9B24A6AB9A004111D4 /* DrawableImageView.swift in Sources */,
+				06790D8F24A6AA6E004111D4 /* ImageCombiner2ImagesTemplate1.swift in Sources */,
+				06790DA024A6ABDC004111D4 /* UIImageView+Alpha.swift in Sources */,
+				06790DA724A6AC2C004111D4 /* PhotoEditorViewController.swift in Sources */,
+				06790DA924A6AC2C004111D4 /* PhotoEditor+Gestures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +677,7 @@
 		};
 		06790D8224A6A997004111D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF971E0CA0769ACA6D14CFB /* Pods-SimplePhotoEditor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +695,7 @@
 		};
 		06790D8324A6A997004111D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDDF274866CE705CEE8F4C7 /* Pods-SimplePhotoEditor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +713,7 @@
 		};
 		06790D8524A6A997004111D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1408A3E090ADB64DA3263D1D /* Pods-SimplePhotoEditorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +735,7 @@
 		};
 		06790D8624A6A997004111D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EB8732E96749D37608CF94 /* Pods-SimplePhotoEditorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +757,7 @@
 		};
 		06790D8824A6A997004111D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BC5E9E31F64FDDF683B9A0 /* Pods-SimplePhotoEditor-SimplePhotoEditorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +777,7 @@
 		};
 		06790D8924A6A997004111D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E082246169EFEFD7966BFD /* Pods-SimplePhotoEditor-SimplePhotoEditorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
