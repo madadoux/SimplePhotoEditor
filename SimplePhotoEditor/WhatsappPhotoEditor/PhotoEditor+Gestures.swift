@@ -59,19 +59,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
 
     @objc func tapGesture(_ recognizer: UITapGestureRecognizer) {
         if let view = recognizer.view {
-            if view is UIImageView {
-                //Tap only on visible parts on the image
-                for imageView in subImageViews(view: canvasImageView) {
-                    let location = recognizer.location(in: imageView)
-                    let alpha = imageView.alphaAtPoint(location)
-                    if alpha > 0 {
-                        scaleEffect(view: imageView)
-                        break
-                    }
-                }
-            } else {
                 scaleEffect(view: view)
-            }
         }
     }
     
@@ -90,12 +78,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
         return false
     }
     
-    @objc func screenEdgeSwiped(_ recognizer: UIScreenEdgePanGestureRecognizer) {
-        if recognizer.state == .recognized {
-           
-        }
-    }
-    
+   
     override public var prefersStatusBarHidden: Bool {
         return true
     }
@@ -136,7 +119,6 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
         
         if recognizer.state == .ended {
             lastPanPoint = nil
-            let point = recognizer.location(in: self.view)
                 if !canvasImageView.bounds.contains(view.center) { //Snap the view back to canvasImageView
                 UIView.animate(withDuration: 0.3, animations: {
                     view.center = self.canvasImageView.center
@@ -146,13 +128,5 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
         }
     }
     
-    func subImageViews(view: UIView) -> [UIImageView] {
-        var imageviews: [UIImageView] = []
-        for imageView in view.subviews {
-            if imageView is UIImageView {
-                imageviews.append(imageView as! UIImageView)
-            }
-        }
-        return imageviews
-    }
+   
 }
